@@ -16,4 +16,8 @@ class TemplateController extends Controller
     {
         return $this->render('@Template/Template/index.html.twig');
     }
+    public function backAction()
+    {
+        return $this->render('@Template/Template/back.html.twig');
+    }
 }

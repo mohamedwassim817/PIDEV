@@ -4,3 +4,6 @@ template_homepage:
 template:
     path : /ma_layout
     defaults: { _controller: TemplateBundle:Template:index }
+template_back:
+    path : /admin
+    defaults: { _controller: TemplateBundle:Template:back }
